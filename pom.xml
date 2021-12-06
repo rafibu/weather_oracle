@@ -106,5 +106,12 @@
 			</build>
 		</profile>
 	</profiles>
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal repo</name>
+			<url>file:///C:/Users/rafae/Desktop/Studium/Master/test</url>
+		</repository>
+	</distributionManagement>
 
 </project>
