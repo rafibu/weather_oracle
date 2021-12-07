@@ -38,7 +38,7 @@ public class LayoutUtil {
     public static TextField addTextfield(String title, Consumer<String> setter, String value, ILayout layout){
         final TextField textfield = new TextField(title);
         if(value != null) textfield.setValue(value);
-        textfield.addKeyPressListener(e -> {
+        textfield.addValueChangeListener(e -> {
             setter.accept(textfield.getValue());
             layout.fireStateChanged();
         });
