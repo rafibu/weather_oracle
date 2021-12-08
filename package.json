@@ -81,6 +81,7 @@
     "html-webpack-plugin": "4.5.2",
     "lit-css-loader": "0.0.4",
     "raw-loader": "3.1.0",
+    "terser": "^3.14.1",
     "ts-loader": "8.0.12",
     "typescript": "4.0.3",
     "webpack": "4.42.0",
@@ -177,6 +178,6 @@
       "webpack-dev-server": "3.11.0",
       "webpack-merge": "4.2.2"
     },
-    "hash": "81beb0c92196f68fdd9206affcbeb2553ccad8c58a00fbede40d6095b6a6b192"
+    "hash": "c8276fb68de422f2054dcc3a9f202876a1f9e84588efada1f9f08c14ee88caf1"
   }
 }
