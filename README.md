@@ -1,6 +1,8 @@
 # weather_oracle
 Author: Rafael Burkhalter, University of Bern
 
+Working example can be found on https://weatherswitzerland.herokuapp.com/
+
 ## Description
 Project for the Seminar Cryptography and Data Security 2021.
 The idea is to create a Proxy which gathers the current temperature of a specified PLZ (Postleitzahl) or City.
